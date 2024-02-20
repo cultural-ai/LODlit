@@ -13,7 +13,7 @@ Currently, LODlit supports parsing of [Wikidata](https://www.wikidata.org/wiki/W
 
 ```pip install LODlit```
 
-LODlit is available on [PyPI](https://pypi.org/project/LODlit/). The current version is 0.5.0.
+LODlit is available on [PyPI](https://pypi.org/project/LODlit/).
 
 * To parse Princeton WordNet 3.1: After NLTK is installed, download the [wordnet31](https://github.com/nltk/nltk_data/blob/gh-pages/packages/corpora/wordnet31.zip) corpus; Put the content of "wordnet31" to "wordnet" in "nltk_data/corpora" (it is not possible to import wordnet31 from nltk.corpus directly; see explanations on [the WordNet website](https://wordnet.princeton.edu/download/current-version) (retrieved on 10.02.2023): "WordNet 3.1 DATABASE FILES ONLY. You can download the WordNet 3.1 database files. Note that this is not a full package as those above, nor does it contain any code for running WordNet. However, you can replace the files in the database directory of your 3.0 local installation with these files and the WordNet interface will run, returning entries from the 3.1 database. This is simply a compressed tar file of the WordNet 3.1 database files"; Use `pwn31.check_version()` to ensure that WordNet 3.1 is imported;
 
