@@ -1,0 +1,7 @@
+README.md
+setup.py
+LODlit.egg-info/PKG-INFO
+LODlit.egg-info/SOURCES.txt
+LODlit.egg-info/dependency_links.txt
+LODlit.egg-info/requires.txt
+LODlit.egg-info/top_level.txt
