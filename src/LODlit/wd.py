@@ -504,7 +504,7 @@ def find_where_query_term_appears(query_results_path:str, lang:str) -> dict:
     return target_terms_dict_wikidata
 
 
-def filter_proper_names(dataset_path:str, lang:str, path:'') -> str:
+def filter_proper_names(dataset_path:str, lang:str, path='') -> str:
     """
     Filtering out proper names in the search results
     dataset_path: str, the path to the search results with claims ('results_w_claims_[lang].json')

@@ -300,9 +300,9 @@ def get_cs():
     path_bg = "https://github.com/cultural-ai/ContentiousTermsLOD/raw/main/bg/background_info_bows.json"
     bg_info = requests.get(path_bg).json()
 
-    # load all pwn bows
+    # load all odwn bows
     path_odwn_bows = f"https://github.com/cultural-ai/ContentiousTermsLOD/raw/main/ODWN/odwn_bows.json"
-    odwn_bows = requests.get(path_pwn_bows).json()
+    odwn_bows = requests.get(path_odwn_bows).json()
 
     odwn_df = pd.DataFrame(columns=['term','hit_id','bow','cs_rm','cs_wm','cs_rm_wm'])
 
