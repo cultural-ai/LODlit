@@ -1,6 +1,8 @@
 # LODlit
 ## Simplifying retrieval of literals from Linked Open Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10685520.svg)](https://doi.org/10.5281/zenodo.10685520)
+
 Different LOD-datasets are available online in different formats with diffferent user-friendliness levels.
 LODlit allows you to search over different linked open datasets in one place using keywords and outputs the search results in the same json structure convinient for further processing.
 
